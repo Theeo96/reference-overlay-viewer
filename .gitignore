@@ -1,0 +1,10 @@
+.local/
+**/bin/
+**/obj/
+.vs/
+.idea/
+artifacts/
+*.user
+*.suo
+*.log
+*.tmp
