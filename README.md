@@ -1,5 +1,7 @@
 # Reference Overlay Viewer
 
+<img src="src/ReferenceOverlayViewer/Assets/app-icon.png" width="96" alt="겹친 이미지 프레임과 커서로 표현한 앱 아이콘" />
+
 Windows에서 다른 프로그램 위에 참고 이미지를 겹쳐 두고 사용하는 데스크톱 이미지 뷰어입니다. 한국어 표시 이름은 **레퍼런스 이미지 뷰어**입니다.
 
 공개 소스: [Theeo96/reference-overlay-viewer](https://github.com/Theeo96/reference-overlay-viewer)
@@ -58,6 +60,7 @@ Windows x64와 .NET 10 SDK가 필요합니다. 외부 NuGet 라이브러리는 �
 | [구현 작업 계획](docs/IMPLEMENTATION_PLAN.md) | 기술 구성, 단계별 산출물과 완료 기준, GitHub 공개 절차 |
 | [검증 항목](docs/ACCEPTANCE_TESTS.md) | 클릭 통과, 포커스, 크기 및 이미지 조절의 실제 검증 절차 |
 | [검증 결과](docs/VERIFICATION.md) | 자동 검사 결과와 미검증 수동 항목 |
+| [앱 아이콘](docs/ICON.md) | 아이콘 원본, 생성 프롬프트와 ICO 변환 방법 |
 | [작업 상태](docs/STATUS.md) | 완료된 작업, 다음 작업, 미검증 사항 |
 | [Codex 작업 지침](AGENTS.md) | 후속 작업에서 지켜야 할 프로젝트 규칙 |
 
