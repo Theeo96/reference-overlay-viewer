@@ -26,13 +26,16 @@
 
 ## 게시 작업
 
-- [ ] Git 초기화 및 초기 커밋
-- [ ] GitHub public 저장소 생성 및 push
-- [ ] 원격 공개 상태 및 커밋 일치 확인
+- [x] Git 초기화 및 초기 커밋 `4306049`
+- [x] GitHub public 저장소 생성 및 main push
+- [x] 원격 public 상태 및 초기 커밋 일치 확인
+- [x] GitHub Actions Windows 빌드·검사·패키징 성공
+
+저장소: [Theeo96/reference-overlay-viewer](https://github.com/Theeo96/reference-overlay-viewer)
 
 ## 다음 작업
 
-구현과 자동 검증을 마쳤으며 초기 커밋과 연동 계정의 공개 GitHub 저장소 푸시를 진행한다. 게시 후 상태를 갱신한다.
+구현·로컬 자동 검증·패키징·공개 저장소 게시·GitHub Actions 확인을 마쳤다. 요청 범위에서 제외한 수동 검증은 이후 사용자가 원할 때 수행한다.
 
 ## 확정한 요구사항
 

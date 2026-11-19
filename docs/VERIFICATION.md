@@ -3,6 +3,8 @@
 검증일: 2026-11-19 KST
 대상: v0.1.0 / .NET SDK 10.0.404 / .NET Runtime 10.0.15 / Windows 10.0.26300 x64
 
+검증한 소스 커밋: `43060494a132c4ca6e1beeb6287e776d6fcb609e`. 이후 문서 변경은 실행 코드에 영향을 주지 않는다.
+
 ## 수행 결과
 
 - Release 빌드: 성공, 경고 0개 / 오류 0개.
@@ -11,7 +13,7 @@
 - 패키지 검사는 DOTNET_ROOT 및 DOTNET_ROOT_X64를 존재하지 않는 폴더로 지정해도 성공했다. 새 PC 검사를 대체하는 것은 아니다.
 - 배포물: `artifacts/win-x64/ReferenceOverlayViewer.exe`, `artifacts/ReferenceOverlayViewer-win-x64.zip`.
 - 원본 보고서: `artifacts/self-test.json`, `artifacts/published-self-test.json` (Git 제외).
-- GitHub Actions에 빌드·자동 검사·패키징·ZIP 업로드를 구성했다. 원격 실행 결과는 별도 확인한다.
+- GitHub Actions Windows 빌드·자동 검사·패키징·ZIP 업로드: [성공](https://github.com/Theeo96/reference-overlay-viewer/actions/runs/44542094779). 이 결과는 초기 구현 커밋 `4306049` 기준이다.
 
 사용자 지시에 따라 Computer Use는 사용하지 않았으며 다른 작업창에 실제 마우스나 키보드 입력을 보내지 않았다. 표시하지 않은 HWND 생성 및 화면 밖 렌더링만 이용했다. 테스트는 개인 설정을 사용하지 않으며 전역 단축키를 등록하지 않는다.
 
