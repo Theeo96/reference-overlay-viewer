@@ -37,6 +37,8 @@
 
 ## 다음 작업
 
+- 2026-11-28 KST 배포 빌드에서 프로젝트 최상단에도 단일 실행 파일을 생성하도록 변경했다. 공개 배포본은 [GitHub Releases](https://github.com/Theeo96/reference-overlay-viewer/releases)에서 확인할 수 있다.
+
 구현·로컬 자동 검증·패키징·공개 저장소 게시·GitHub Actions 확인을 마쳤다. 요청 범위에서 제외한 수동 검증은 이후 사용자가 원할 때 수행한다.
 
 ## 확정한 요구사항

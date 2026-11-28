@@ -4,6 +4,7 @@
 .vs/
 .idea/
 artifacts/
+/ReferenceOverlayViewer.exe
 *.user
 *.suo
 *.log

@@ -14,7 +14,9 @@ Windows에서 다른 프로그램 위에 참고 이미지를 겹쳐 두고 사�
 
 ## 실행과 사용
 
-로컬 빌드 결과가 있다면 프로젝트 루트의 `실행하기.cmd` 또는 `artifacts/win-x64/ReferenceOverlayViewer.exe`를 실행합니다. 배포 ZIP은 `artifacts/ReferenceOverlayViewer-win-x64.zip`입니다. ZIP을 새 폴더에 풀고 exe를 실행하면 됩니다. 실행 시 관리자 권한은 필요하지 않습니다.
+프로젝트 폴더 최상단의 `ReferenceOverlayViewer.exe`를 더블클릭하면 실행됩니다. Windows x64용 단일 실행 파일이며 .NET 런타임을 포함합니다. [GitHub 릴리스에서 실행 파일 다운로드](https://github.com/Theeo96/reference-overlay-viewer/releases/latest/download/ReferenceOverlayViewer.exe)
+
+직접 빌드하려면 아래의 `-Publish` 명령을 실행합니다. 같은 실행 파일이 `artifacts/win-x64/`에도 생성되며, 배포 ZIP은 `artifacts/ReferenceOverlayViewer-win-x64.zip`에 저장됩니다.
 
 1. 상단 **열기**로 PNG/JPG/BMP를 선택합니다. 이미지 파일 경로를 실행 인자로 전달할 수도 있습니다.
 2. **편집 모드 ON**에서 휠로 확대·축소하고 이미지 드래그로 내부 위치를 바꿉니다. 테두리·모서리를 드래그하면 창 크기가 변합니다.

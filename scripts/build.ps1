@@ -36,6 +36,7 @@ try {
         if (@($packagedResult.results | Where-Object { -not $_.passed }).Count -gt 0) { throw 'Published self-test assertions failed' }
         Copy-Item README.md artifacts/win-x64/README.md
         Compress-Archive -Path artifacts/win-x64/* -DestinationPath artifacts/ReferenceOverlayViewer-win-x64.zip -Force
-        Get-FileHash artifacts/win-x64/ReferenceOverlayViewer.exe -Algorithm SHA256 | Format-List
+        Copy-Item -LiteralPath artifacts/win-x64/ReferenceOverlayViewer.exe -Destination ReferenceOverlayViewer.exe
+        Get-FileHash ReferenceOverlayViewer.exe -Algorithm SHA256 | Format-List
     }
 } finally { Pop-Location }
